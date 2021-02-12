@@ -1,0 +1,14 @@
+.slide-fade-enter{ /*comienzo de transicion*/
+    transform: translateX(10px) !important;;
+    opacity: 0 !important;;
+}
+
+.slide-fade-enter-active, /*en camino de transicion*/
+.slide-fade-leave-active{  /*una vez este en camino de la salida de transicion*/
+    transition: all 0.2s ease !important;;
+}
+
+.slide-fade-leave-to{ /*una vez la transicion este saliento o terminando*/
+    transform: translateX(-10px) !important;;
+    opacity: 0 !important;;
+}
